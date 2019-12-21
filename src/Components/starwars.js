@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import starwarlogo from '../assets/Star_Wars_Logo.svg'
 import './starwars.css'
 import axios from 'axios'
+import 'font-awesome/css/font-awesome.min.css'
 
 
 class Starwars extends Component {
@@ -62,7 +63,7 @@ class Starwars extends Component {
             <div>
                 <img src={starwarlogo} className="starwar-logo"  alt="logo" />
                 <br/>
-                 <button className="button" onClick={this.showStarWarDetails}>Do. Or do not. There is no try.</button>
+                 <button className="button" onClick={this.showStarWarDetails}><i className="fa fa-star strIconL fa-lg"></i>Do. Or do not. There is no try.<i className="fa fa-star strIconR fa-lg"></i></button>
                  { this.state.isStarwarDetailsAvailable ? <div className="info">
                  <div className="ques">Which of all StarWars movies has longest opening crawl?</div>
                  <div className="ans">{this.state.longestOpeningCrawl}</div>
