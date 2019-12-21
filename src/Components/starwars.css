@@ -1,0 +1,50 @@
+.starwar-logo{
+    margin-top: 4%;    
+    width: 330px;
+}
+
+/*New Styles
+  -----------------*/
+  .button {
+    padding: 30px 30px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    /* font-family: Roboto; */
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #F7E916;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0 16px #BEB313;
+    align-content: center;    
+    margin-top:3%;
+  }
+  
+  .button:hover {
+    background-color:#F9F289;
+    box-shadow: 0 12px #BEB313;
+    transform: translateY(4px);
+  }
+  
+  .button:active {
+    background-color: #F9F289;
+    box-shadow: 0 5px #BEB313;
+    transform: translateY(4px);
+  }
+  .info{
+    position: relative;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 2em;
+    font-weight: 900;
+  }
+  .ques{
+    color: white;
+    margin-bottom: 10px;
+  }
+  .ans{
+    color: #FAEC1D;
+    margin-bottom: 10px;
+  }
