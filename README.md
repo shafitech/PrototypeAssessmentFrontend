@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Asp.net Web API is hosted in Azure cloud so no need to change the urls just do below steps
+Asp.net Web API is hosted in Azure cloud so need to change the url with "http://starwarbackend.azurewebsites.net/api/StarWars/"
+in starwar.js component
 
 ## Available Scripts
 
