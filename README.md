@@ -7,6 +7,11 @@ in starwar.js component
 
 In the project directory, you can run:
 ### `npm install`
+
+To open project in Visual Studio Code:
+### `code .`
+
+To run project:
 ### `npm start`
 
 Runs the app in the development mode.<br />
